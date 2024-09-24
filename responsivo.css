@@ -1,0 +1,56 @@
+@media (max-width: 768px) {
+    body {
+        max-width: 100%;
+        padding-right: 15%;
+        padding-left: 15%;
+        min-height: 100vh;
+        background-size: cover;
+        background-position: center;
+    }
+
+
+    .container {
+        width: 70%;
+        padding: 10px;
+    }
+
+    .container h1 {
+        font-size: 2rem;
+    }
+
+    .input-box {
+        margin: 10% 0;
+    }
+
+    .Login {
+        font-size: 1.2rem;
+    }
+
+    .register-link {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 100%;
+        padding: 5px;
+    }
+
+    .container h1 {
+        font-size: 1.5rem;
+    }
+
+    .input-box {
+        margin: 10px 0;
+    }
+
+    .Login {
+        font-size: 1rem;
+    }
+
+    .register-link {
+        font-size: 8px;
+    }
+}
+
